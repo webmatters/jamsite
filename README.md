@@ -1,8 +1,8 @@
-# Web Matters marekting site
+# Web Matters marketing site
 
-## Requirements
-[Node.js](https://nodejs.org/en/)
-[Vue.js](https://vuejs.org/)
+### Requirements
+[Node.js](https://nodejs.org/en/)  
+[Vue.js](https://vuejs.org/)  
 
 ### 1. Install Gridsome CLI tool if not installed
 
