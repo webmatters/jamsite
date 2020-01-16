@@ -1,14 +1,25 @@
-# Default starter for Gridsome
+# Web Matters marekting site
 
-This is the project you get when you run `gridsome create new-project`.
+## Requirements
+[Node.js](https://nodejs.org/en/)
+[Vue.js](https://vuejs.org/)
 
-### 1. Install Gridsome CLI tool if you don't have
+### 1. Install Gridsome CLI tool if not installed
 
 `npm install --global @gridsome/cli`
 
-### 2. Create a Gridsome project
+### 2. Clone this repository
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+Navigate to the folder where you want to install this project.
+`git clone https://github.com/webmatters/jamsite.git`
+`cd jamsite` to open the folder
+
+### 3. Install project dependencies
+
+`npm install`
+
+### 4. Start the development server
+
+`gridsome develop` to start a local dev server at `http://localhost:8080`
+
+Happy coding 🎉🙌
