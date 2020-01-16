@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <main class="flex-wrapper">
-      <h1>Hello, world!</h1>
+      <h1>We build sites that convert cruisers into clients.</h1>
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
