@@ -4,7 +4,8 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "test": "echo 'Run your tests here'"
   },
   "dependencies": {
     "gridsome": "^0.7.0",
