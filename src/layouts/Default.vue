@@ -56,7 +56,7 @@ query {
 </static-query>
 
 <script>
-import Brand from "~/assets/images/brand-logo.svg";
+import Brand from "~/assets/images/brand.svg";
 import Hamburger from "~/assets/images/hamburger.svg";
 import Close from "~/assets/images/close.svg";
 
