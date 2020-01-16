@@ -2,7 +2,7 @@
   <div class="flex flex-col min-h-screen antialiased text-gray-800 bg-gray-200">
     <header class="bg-white sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
       <div class="flex justify-between items-center py-3 px-4 sm:p-0">
-        <g-link to="/"><brand /></g-link>
+        <g-link to="/"><g-image src="~/assets/images/brand.svg" class="h-8 w-auto"/></g-link>
         <nav class="sm:hidden">
           <button
             @click="isOpen = !isOpen"
