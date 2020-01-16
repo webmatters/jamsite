@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <main class="flex-wrapper">
-      <h1>About Us</h1>
+      <h1>Services</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
         doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur
@@ -15,7 +15,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "About"
+    title: "Services"
   }
 };
 </script>
