@@ -15,9 +15,9 @@
 <script>
 export default {
   metaInfo: {
-    title: "Our Work"
-  }
-};
+    title: 'Our Work',
+  },
+}
 </script>
 
 <style>

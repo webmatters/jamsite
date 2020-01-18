@@ -3,7 +3,8 @@
     <main class="flex-wrapper">
       <h1>About Us</h1>
       <p>
-        Web Matters is the premiere web development and consulting firm in Raleigh, NC.
+        Web Matters is the premiere web development and consulting firm in
+        Raleigh, NC.
       </p>
     </main>
   </Layout>
@@ -12,9 +13,9 @@
 <script>
 export default {
   metaInfo: {
-    title: "About"
-  }
-};
+    title: 'About',
+  },
+}
 </script>
 
 <style>

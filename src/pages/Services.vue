@@ -15,9 +15,9 @@
 <script>
 export default {
   metaInfo: {
-    title: "Services"
-  }
-};
+    title: 'Services',
+  },
+}
 </script>
 
 <style>
