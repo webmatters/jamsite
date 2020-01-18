@@ -8,11 +8,15 @@
     "test": "echo 'Run your tests here'"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "gridsome": "^0.7.0",
     "tailwindcss": "^1.1.4",
     "typeface-lato": "0.0.75"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
     "@fullhuman/postcss-purgecss": "^1.3.0",
     "autoprefixer": "^9.7.4",
     "vue-svg-loader": "^0.15.0"

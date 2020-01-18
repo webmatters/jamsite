@@ -2,7 +2,17 @@
 require("~/main.css");
 require("typeface-lato");
 
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { config, library } from '@fortawesome/fontawesome-svg-core'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+
+
 import DefaultLayout from "~/layouts/Default.vue";
+
+config.autoAddCss = false;
+library.add(faGithub, faTwitter, faBars, faTimes)
 
 export default function(Vue, { router, head, isClient }) {
   head.htmlAttrs = { lang: "en" };
@@ -17,4 +27,5 @@ export default function(Vue, { router, head, isClient }) {
     }
   );
   Vue.component("Layout", DefaultLayout);
+  Vue.component('font-awesome', FontAwesomeIcon)
 }
