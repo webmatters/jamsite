@@ -4,19 +4,45 @@ require('typeface-lato')
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import {
+  faBars,
+  faTimes,
+  faUsers,
+  faRocket,
+  faMobileAlt,
+  faMedal,
+  faPoll,
+  faLightbulb,
+} from '@fortawesome/free-solid-svg-icons'
 import {
   faGithub,
   faTwitter,
   faFacebook,
   faDribbble,
+  faHtml5,
+  faJs,
 } from '@fortawesome/free-brands-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 import DefaultLayout from '~/layouts/Default.vue'
 
 config.autoAddCss = false
-library.add(faGithub, faTwitter, faFacebook, faDribbble, faBars, faTimes)
+library.add(
+  faGithub,
+  faTwitter,
+  faFacebook,
+  faDribbble,
+  faBars,
+  faTimes,
+  faUsers,
+  faRocket,
+  faHtml5,
+  faJs,
+  faMobileAlt,
+  faMedal,
+  faPoll,
+  faLightbulb
+)
 
 export default function(Vue, { router, head, isClient }) {
   head.htmlAttrs = {
