@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <div class="container w-full mx-auto min-h-screen flex flex-col bg-white">
-      <nav-bar id="header bg-white" />
+  <div class="container w-full mx-auto min-h-screen flex flex-col bg-white">
+    <nav-bar id="header bg-white" />
+    <main class="flex-grow">
       <slot />
-      <app-footer />
-    </div>
+    </main>
+    <app-footer />
   </div>
 </template>
 

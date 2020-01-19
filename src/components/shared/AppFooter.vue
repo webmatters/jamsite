@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
-          <div class="flex flex-wrap items-top mb-6">
+          <div class="flex flex-wrap items-top">
             <div class="w-full lg:w-4/12 px-4 ml-auto">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"

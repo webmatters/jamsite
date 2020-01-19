@@ -5,9 +5,9 @@
   >
     <div class="flex justify-between items-center py-3 px-4 md:p-0">
       <!-- Brand logo -->
-      <g-link to="/"
-        ><g-image src="~/assets/images/brand.svg" class="h-8 w-auto"
-      /></g-link>
+      <g-link to="/" class="text-primary text-4xl font-semibold"
+        >Web Matters</g-link
+      >
       <!-- Hamburger and Close Menu for mobile -->
       <div class="md:hidden">
         <button
