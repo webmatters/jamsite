@@ -7,10 +7,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: colors.gray[800],
-        secondary: colors.gray[500],
-        cta: colors.gray[500],
-        'cta-hover': colors.gray[400],
+        primary: colors.indigo[700],
+        'primary-hover': colors.indigo[500],
+        secondary: colors.pink[500],
+        cta: colors.teal[500],
+        'cta-hover': colors.teal[400],
       },
     },
   },

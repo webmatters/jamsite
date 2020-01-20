@@ -13,10 +13,10 @@
         <button
           @click="isOpen = !isOpen"
           type="button"
-          class="text-primary hover:text-secondary focus:outline-none"
+          class="text-primary hover:text-primary-hover focus:outline-none"
         >
-          <font-awesome v-if="isOpen" :icon="['fas', 'times']" />
-          <font-awesome v-else :icon="['fas', 'bars']" />
+          <font-awesome v-if="isOpen" :icon="['fas', 'times']" class="fill-current inline-block h-12 w-12" />
+          <font-awesome v-else :icon="['fas', 'bars']" class="fill-current inline-block h-12 w-12"/>
         </button>
       </div>
     </div>
@@ -26,17 +26,17 @@
       class="px-2 pt-2 pb-4 md:flex text-primary md:flex md:items-center"
     >
       <g-link
-        class="block px-2 py-2 font-semibold rounded hover:text-secondary"
+        class="block px-2 py-2 font-semibold rounded hover:text-primary-hover"
         to="/services/"
         >Services</g-link
       >
       <g-link
-        class="block mt-1 px-2 py-2 font-semibold rounded hover:text-secondary md:mt-0 md:ml-6"
+        class="block mt-1 px-2 py-2 font-semibold rounded hover:text-primary-hover md:mt-0 md:ml-6"
         to="/about/"
         >About</g-link
       >
       <g-link
-        class="block mt-1 px-2 py-2 font-semibold rounded hover:text-secondary md:mt-0 md:ml-6"
+        class="block mt-1 px-2 py-2 font-semibold rounded hover:text-primary-hover md:mt-0 md:ml-6"
         to="/portfolio/"
         >Our Work</g-link
       >

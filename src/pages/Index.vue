@@ -2,7 +2,7 @@
   <Layout>
     <!-- Hero Section -->
     <div
-      class="container px-8 mx-auto flex flex-wrap flex-col md:flex-row items-center py-20 bg-gray-200"
+      class="container px-8 mx-auto flex flex-wrap flex-col md:flex-row items-center text-white py-20 gradient"
     >
       <!--Left Col-->
       <div
@@ -18,15 +18,14 @@
         </h2>
 
         <button
-          class="mx-auto lg:mx-0 bg-cta text-white hover:bg-cta-hover font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+          class="mx-auto lg:mx-0 bg-cta text-white hover:bg-cta-hover font-bold rounded-full my-6 py-3 px-6 shadow-lg text-lg"
         >
           Learn More
         </button>
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 py-6 text-center">
-        <g-image src="~/assets/images/hero.png" class="w-full md:w-4/5 z-50" />
-        <img class="w-full md:w-4/5 z-50" />
+        <g-image src="~/assets/images/needlebig.svg" class="w-full md:w-4/5 z-50" />
       </div>
     </div>
     <!-- Why Web Matters -->
@@ -35,7 +34,7 @@
         <div
           class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
         >
-          <font-awesome :icon="['fas', 'users']" class="text-xl" />
+          <font-awesome :icon="['fas', 'users']" class="fill-current text-gray-600 inline-block text-xl" />
         </div>
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           Working with us is easy
@@ -298,4 +297,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.gradient {
+  background: linear-gradient(90deg, #d53f8c 0%, #662f8e 100%);
+}
+</style>
