@@ -34,7 +34,7 @@
         <div
           class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
         >
-          <font-awesome :icon="['fas', 'users']" class="fill-current text-gray-600 inline-block text-xl"></font-awesome-icon>
+          <font-awesome-icon :icon="['fas', 'users']" class="fill-current text-gray-600 inline-block text-xl"></font-awesome-icon>
         </div>
         <h3 class="text-3xl mb-2 font-semibold leading-normal">
           Working with us is easy
@@ -105,7 +105,7 @@
               <div
                 class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
               >
-                <font-awesome :icon="['fas', 'rocket']" class="text-xl"></font-awesome-icon>
+                <font-awesome-icon :icon="['fas', 'rocket']" class="text-xl"></font-awesome-icon>
               </div>
               <h3 class="text-3xl font-semibold">A growing company</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
@@ -119,7 +119,7 @@
                     <div>
                       <span
                         class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                        ><font-awesome :icon="['fab', 'html5']"
+                        ><font-awesome-icon :icon="['fab', 'html5']"
                       ></font-awesome-icon></span>
                     </div>
                     <div>
@@ -134,7 +134,7 @@
                     <div>
                       <span
                         class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                        ><font-awesome :icon="['fab', 'js']"
+                        ><font-awesome-icon :icon="['fab', 'js']"
                       ></font-awesome-icon></span>
                     </div>
                     <div>
@@ -147,7 +147,7 @@
                     <div>
                       <span
                         class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                        ><font-awesome :icon="['fas', 'mobile-alt']"
+                        ><font-awesome-icon :icon="['fas', 'mobile-alt']"
                       ></font-awesome-icon></span>
                     </div>
                     <div>
@@ -181,7 +181,7 @@
             <div
               class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
             >
-              <font-awesome :icon="['fas', 'medal']" class="text-xl" ></font-awesome-icon>
+              <font-awesome-icon :icon="['fas', 'medal']" class="text-xl" ></font-awesome-icon>
             </div>
             <h6 class="text-xl mt-5 font-semibold text-white">
               Excellent Services
@@ -195,7 +195,7 @@
             <div
               class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
             >
-              <font-awesome :icon="['fas', 'poll']" class="text-xl" ></font-awesome-icon>
+              <font-awesome-icon :icon="['fas', 'poll']" class="text-xl" ></font-awesome-icon>
             </div>
             <h5 class="text-xl mt-5 font-semibold text-white">
               Grow your market
@@ -209,7 +209,7 @@
             <div
               class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
             >
-              <font-awesome :icon="['fas', 'lightbulb']" class="text-xl" ></font-awesome-icon>
+              <font-awesome-icon :icon="['fas', 'lightbulb']" class="text-xl" ></font-awesome-icon>
             </div>
             <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
             <p class="mt-2 mb-4 text-gray-500">
