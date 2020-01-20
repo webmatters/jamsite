@@ -1,7 +1,7 @@
 <template>
   <!-- Responsive NavBar -->
   <nav
-    class="w-full bg-white md:flex md:justify-between md:items-center md:px-8 md:py-3"
+    class="w-full bg-white md:flex md:justify-between md:items-center md:py-3"
   >
     <div class="flex justify-between items-center py-3 px-4 md:p-0">
       <!-- Brand logo -->

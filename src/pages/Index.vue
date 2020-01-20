@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="px-8">
     <!-- Hero Section -->
     <div
       class="container px-8 mx-auto flex flex-wrap flex-col md:flex-row items-center text-white py-20 gradient"
